@@ -1,4 +1,4 @@
-# 01 HTML, CSS, and Git: Code Refactor
+# Horison Project
 
 ## Project
 This is the proposal that I made for the company Horiseon so below are the requirements of the client
