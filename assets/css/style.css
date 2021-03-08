@@ -1,13 +1,15 @@
+/* This select is used for apply the properties to all the page */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-
+/* I use this to apply the follow properties to the body */
 body {
   background-color: #d9dcd6;
 }
 
+/* I use this to apply the follow properties to the header */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -16,15 +18,18 @@ header {
   color: #ffffff;
 }
 
+/* I use this to apply the follow properties to a H1 that is inside of the header */
 header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
+/* I use this to apply the follow properties to a H1 that is inside of the header */
 header h1 .seo {
   color: #d9dcd6;
 }
 
+/* I use this to apply the follow properties to the Navbar that is inside of the header */
 header navbar {
   padding-top: 15px;
   margin-right: 20px;
@@ -33,15 +38,18 @@ header navbar {
   font-size: 20px;
 }
 
+/* I use this to apply the follow properties to the list that is inside of the navbar that the parent is the header  */
 header navbar ul {
   list-style-type: none;
 }
 
+/* I use this to apply the follow properties to the list items that is inside of the navbar that the parent is the header */
 header navbar ul li {
   display: inline-block;
   margin-left: 25px;
 }
 
+/* I use this to apply the follow properties to footer */
 footer {
   padding: 30px;
   clear: both;
@@ -50,10 +58,12 @@ footer {
   text-align: center;
 }
 
+/* I use this to apply the follow properties to a H2 that is inside of the footer */
 footer h2 {
   font-size: 20px;
 }
 
+/* I use this to apply the follow properties to aside */
 aside {
   margin-right: 20px;
   padding: 20px;
@@ -81,14 +91,19 @@ aside div figure img {
   max-width: 150px;
 }
 
+/* I use this to apply the follow properties to the links */
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/* I use this to apply the follow properties to the paragraph */
 p {
   font-size: 16px;
 }
+
+/* I use this to apply the follow properties to the elements that have the class of hero */
+
 .hero {
   height: 800px;
   width: 100%;
@@ -97,17 +112,17 @@ p {
   background-size: cover;
   background-position: center;
 }
-
+/* I use this to the elements with this class float to the left and have a margin to the left of 25px */
 .float-left {
   float: left;
   margin-right: 25px;
 }
-
+/* I use this to the elements with this class float to the right and have a margin to the left of 25px */
 .float-right {
   float: right;
   margin-left: 25px;
 }
-
+/* The content will have a width of 75% will be displayed inline and have a margin to the left for 20px */
 #content {
   width: 75%;
   display: inline-block;
@@ -122,16 +137,16 @@ p {
   background-color: #0072bb;
   color: #ffffff;
 }
-
+/* With this code the max height of an image will be of 200px */
 #content article img {
   max-height: 200px;
 }
-
+/* The H2 of an articule  will have a bottom margin os 20 px and font size of 26px */
 #content article h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
-
+/* The elements that have this class will have a font size of 20px  */
 #made_by {
   font-size: 20px;
 }
